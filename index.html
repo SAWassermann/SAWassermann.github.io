@@ -38,8 +38,10 @@
 								<h1>Hi, welcome on my website!</h1>
 							</header>
 							<p align="left">My name is <b>Sarah Wassermann</b> and I am a 1st-year MSc student at the <b>University of Li&egrave;ge</b>, specializing in <b>computer systems and networks</b>.<br>
-							Besides my studies, I conduct research in the field of <b>network measurements</b> under the supervision of <a href="http://userver.ftw.at/~pcasas/">Dr. Pedro Casas</a>
-							and <a href="http://montefiore.ulg.ac.be/personnel.php?op=detail&id=1077">Prof. Dr. Benoit Donnet</a>.</p>
+							Besides my studies, I conduct research in the field of <b>network measurements</b> under the supervision of <a href="http://userver.ftw.at/~pcasas/" target="_blank">Dr. Pedro Casas</a>
+							and <a href="http://montefiore.ulg.ac.be/personnel.php?op=detail&id=1077" target="_blank">Prof. Dr. Benoit Donnet</a>.</br>
+							In my free time, I enjoy travelling, reading, and video games. I am also interested in 3D-modelling, web and graphic design. This is why I like playing around with 
+							Adobe Photoshop and Maxon Cinema 4D.</p>
 							<a href="#Research" class="button big scrolly">Learn about what I do</a>
 						</div>
 					</div>
@@ -50,37 +52,39 @@
 			<div class="wrapper style2">
 				<article id="Research">
 					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+						<h2>Research</h2>
+						<p>My primary research interest lies in computer networks, and mostly in <b>network traffic measurements</b>.<br>
+						 I am especially curious about discovering <b>performance degradations on the server-to-customer internet paths of popular 
+						 services</b> (e.g. YouTube, Facebook, etc.). Being able to track and troubleshoot these issues is paramount for ISPs and 
+						 will lead to a better <b>quality of experience (QoE)</b> for the users.<br>
+						 I have been interested in research since my 2nd year at university. This interest was strengthened by two Research Internships
+						 I performed in the last two years, in the specific field of Internet network measurements, and more precisely in active measurements
+						 for network performance analysis.</p>
 					</header>
 					<div class="container">
 						<div class="row">
-							<div class="4u 12u(mobile)">
+							<div class="6u 12u(mobile)">
 								<section class="box style1">
-									<span class="icon featured fa-comments-o"></span>
-									<h3>Consequat lorem</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+									<span><i class="fa fa-code fa-5x"></i></span>
+									<h3>DisNETPerf</h3>
+									<p>A distributed Internet paths performance analyzer developed in the context of my Research Internship @FTW Vienna. For more 
+									information about this work, please have a look at my papers or visit the <a href="https://github.com/SAWassermann/DisNETPerf" target="_blank">
+									Github repo of DisNETPerf</a>.</p>
 								</section>
 							</div>
-							<div class="4u 12u(mobile)">
+							<div class="6u 12u(mobile)">
 								<section class="box style1">
-									<span class="icon featured fa-camera-retro"></span>
-									<h3>Lorem dolor tempus</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-thumbs-o-up"></span>
-									<h3>Feugiat posuere</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+									<span><i class="fa fa-code fa-5x"></i></span>
+									<h3>libparistraceroute</h3>
+									<p>During my internship @LiP6 in Paris, I implemented a generic ping tool based on libparistraceroute which can handle IPv4, IPv6 and 
+									TCP, UDP, ICMP probes. I also extended the library itself. More information can be found on the project's
+									<a href="https://code.google.com/p/paris-traceroute/" target="_blank">Google Code site</a>.</p>
 								</section>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#Publications" class="button big scrolly">See some of my recent work</a>
+						<a href="#Publications" class="button big scrolly">See a list of my publications</a>
 					</footer>
 				</article>
 			</div>
@@ -94,8 +98,8 @@
 					</header>
 					<h3><b>Extended abstracts:</b></h3>
 					<P align="center">
-					<i><b>Towards DisNETPerf: a Distributed Internet Paths Performance Analyzer</b></i><br>
-					S.Wassermann, P. Casas, B.Donnet<br>
+					<a href="http://orbi.ulg.ac.be/handle/2268/187290"><i><b>Towards DisNETPerf: a Distributed Internet Paths Performance Analyzer</b></i></a><br>
+					S. Wassermann, P. Casas, B. Donnet<br>
 					in Proceedings of the ACM CoNEXT Student Workshop, Heidelberg, Germany, 2015<br>
 					</p>
 					
@@ -114,45 +118,6 @@
 		<!-- Contact -->
 			<div class="wrapper style4">
 				<article id="contact" class="container 75%">
-					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.</p>
-					</header>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<form method="post" action="#">
-									<div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
 						<div class="row">
 							<div class="12u">
 								<hr />
@@ -179,7 +144,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Sarah Wassermann. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 				</article>
